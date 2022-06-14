@@ -8,7 +8,7 @@ See the definition of the route guide service in `routeguide/route_guide.proto`.
 
 # Run the sample code
 To compile and run the server, assuming you are in the root of the `route_guide`
-folder, i.e., `.../examples/route_guide/`, simply:
+folder, i.e., `.../route_guide/`, simply:
 
 ```sh
 $ go run server/server.go
@@ -33,3 +33,7 @@ and
 ```sh
 $ go run client/client.go -tls=true
 ```
+
+## Credits:
+
+Example taken from: https://grpc.io/docs/languages/go/basics/
